@@ -161,7 +161,17 @@ def load_data(city, month, day):
 
 
 def time_stats(df):
-    """Displays statistics on the most frequent times of travel."""
+    """
+    Displays statistics on the most frequent times of travel.
+    
+    Expected Input: Pandas DataFrame containing bikeshare data.
+        Example Input: DataFrame with filtered bikeshare data.
+    Expected Output: Print statements displaying statistics on the most frequent times of travel.
+        Example Output:
+            The most common month to travel is: January
+            The most common day to travel is: Wednesday
+            The most common start hour is: 8
+    """
 
     print('\nCalculating The Most Frequent Times of Travel...\n')
     time.sleep(2)
@@ -197,7 +207,17 @@ def time_stats(df):
 
 
 def station_stats(df):
-    """Displays statistics on the most popular stations and trip."""
+    """
+    Displays statistics on the most popular stations and trip.
+    
+    Expected Input: Pandas DataFrame containing bikeshare data.
+        Example Input: DataFrame with filtered bikeshare data.
+    Expected Output: Print statements displaying statistics on the most popular stations and trip.
+        Example Output:
+            The most commonly used start station is: Union Station
+            The most commonly used end station is: Millennium Park
+            The most frequent combination of start and end station trips is: Union Station to Millennium Park
+    """
 
     print('\nCalculating The Most Popular Stations and Trip...\n')
     time.sleep(2)
