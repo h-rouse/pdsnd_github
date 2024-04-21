@@ -61,7 +61,7 @@ This project enables users to explore bikeshare data through predefined question
 
 1. Clone the repository to your local machine:
    ```
-   git clone <repository_url>
+   git clone https://github.com/h-rouse/pdsnd_github.git
    ```
 2. Make sure you have Python installed on your machine.
 3. Open a terminal or command prompt and navigate to the project directory.
