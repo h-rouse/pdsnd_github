@@ -34,7 +34,7 @@ This project enables users to explore bikeshare data through predefined question
     * counts of each gender (only available for NYC and Chicago)
     * earliest, most recent, most common year of birth (only available for NYC and Chicago)
 
-## Files used
+## Files Used
 ### The files used for the project were:
 * chicago.csv
     * Randomly selected data for the first six months of 2017 in Chicago
