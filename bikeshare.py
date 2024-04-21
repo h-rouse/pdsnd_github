@@ -14,6 +14,11 @@ def get_filters():
         (str) city - name of the city to analyze
         (str) month - name of the month to filter by, or "all" to apply no month filter
         (str) day - name of the day of week to filter by, or "all" to apply no day filter
+
+    Expected Input: User input for city, month, and day.
+        Example Input: "chicago", "1" (for January), "3" (for Wednesday)
+    Expected Output: Tuple containing city, month, and day strings.
+        Example Output: ("chicago", "january", "wednesday")
     """
     # Added time.sleep() thoughout to improve readability
     # ASCII art to add visual interest
@@ -125,6 +130,11 @@ def load_data(city, month, day):
         (str) day - name of the day of week to filter by, or "all" to apply no day filter
     Returns:
         df - Pandas DataFrame containing city data filtered by month and day
+
+    Expected Input: City, month, and day strings.
+        Example Input: "chicago", "january", "wednesday"
+    Expected Output: Pandas DataFrame containing filtered bikeshare data.
+        Example Output: DataFrame with rows corresponding to bike rides in Chicago in January on Wednesdays.
     """
     # Load data from file for specified city
     df = pd.read_csv(CITY_DATA[city])
